@@ -5,6 +5,7 @@ function marcar(linha, coluna) {
     if(player == 1) {
         document.getElementById(`p${linha}${coluna}`).innerHTML = "O";
         document.getElementById(`p${linha}${coluna}`).style.color = "#3065AC";
+        a
         //document.getElementById(`p${linha}${coluna}`).value = 1;
         // document.getElementById(`p${linha}${coluna}`).style.pointerEvents = 'auto';
         player++
